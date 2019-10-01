@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+ <head>  
+  <style>
+		input{border-top:0;
+	      border-left:0;
+		  border-right:0;
+		  border-bottom:20}
+	div{float:left}
+	#div2{float:right}
+	#unique{float:center}
+	h1{color:white}
+	p{color:white}
+	h2{color:white}
+	tr,td{color:white}
+	#phno
+{
+	padding-top:10px;
+}
+#add{
+	padding-top:10px;
+}
+#name
+{
+	padding-bottom:10px;
+}
+#col
+{
+	padding-top: 10px;
+}
+	body
+	{
+		background-image: url("C:/Users/sai/Desktop/img 2.jpg");
+	}
+		marquee {
+			margin-top: 10px;
+			font-size: 70px;
+
+			background-color: cyan;
+		}
+
+ </style>  
+ </head>
+ <body>
+ <marquee>welcome to qspiders</marquee>
+	<div name="division1">
+	<a href="jspiderportal.html"
+	 <p><img src="jspiders.jpeg"width="200" height="200"></p></a>
+     <h1>Jspiders Java Training Center</h1>
+     <p>PhoneNumber:9133422398</p>
+	 
+	</div>
+	 
+	 <div name="division2" align="right" id="div2">
+	 <p><img src="qspidersimage.png" width="200" height="200"></p>
+	 <h1>Qspiders Sofware Training Center</h1>
+	 <p>PhoneNumber:7893300632</p>
+	 </div>
+	 <center>
+    <table>
+ <form name ="register">
+ <h2>Registration Form</h2>
+ <tr>
+ <td>FirstName</td>
+ <td>:</td>
+ <td><input required name="fname"></td><br>
+ </tr>
+ <tr>
+ <td>Emailid</td>
+ <td>:</td>
+ <td><input required name="emailid"></td><br>
+ </tr>
+ <tr >
+ <td>Phone Number</td>
+ <td>:</td>
+ <td><input required name="phone"></td><br>
+ </tr>
+ <tr>
+ <td>Address</td>
+ <td>:</td>
+ <td><input required name="add"></td><br>
+ </tr>
+ <tr>
+ <td>Branch</td>
+ <td>:</td>
+ <td><input required name="branch"></td><br>
+<tr>
+	<td align="right"><input type="submit"></td>
+</tr>
+</form>
+</table>
+<script>
+ function ValidateFirstName()
+ {
+	var fn=document.register.fname.value
+	 var fn_len=fname.length
+	 if((fn_len>=8)&&(fn_len<=12))
+	 {
+		 document.register.fname.style.backgroundColor="green"
+		 document.register.fname.focus()
+
+	 }
+	 else
+	 {
+         document.register.fname.style.backgroundColor="red"
+		 document.register.pwd.focus()
+	 }
+ }
+  function ValidatePassword()
+  {
+	 var phonenumber=document.register.pwd.value
+	 var phonenumber_len=pwd.length
+	 if((phonenumber_len>=6)&&(phonenumber_len<=8))
+	 {
+		 document.register.fname.style.backgroundColor="green"
+
+	 }
+	 else
+	 {
+         document.register.fname.style.backgroundColor="red"
+	 }
+
+
+
+</script>
+ </body>
+</html>
