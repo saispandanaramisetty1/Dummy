@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Creating_Servlets</display-name>
+
+<servlet-mapping>
+  <servlet-name>nothing</servlet-name>
+  <url-pattern>/something</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>nothing</servlet-name>
+  <servlet-class>org.jsp.app.Demo</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>sangeeth</servlet-name>
+  <url-pattern>/srujan</url-pattern>
+</servlet-mapping>
+<servlet>
+   <servlet-name>sangeeth</servlet-name>
+   <servlet-class>org.jsp.app.Test</servlet-class>
+</servlet>
+
+
+</web-app>
