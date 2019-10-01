@@ -1,0 +1,23 @@
+class PerfectNumber
+{
+	public static void main(String[] args)	
+	{
+		int n=45;
+		int sum=0;
+		for(int i=1;i<=n/i;i++)		
+		{
+			if(n%i==0)		
+			{
+				sum=sum+i;
+			}
+		}
+		if(n==sum)
+		{
+			System.out.println("The given number is a perfect number");
+		}
+		else
+		{
+			System.out.println("The given number is not a perfect number");
+		}
+	}
+}
